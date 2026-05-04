@@ -1,2 +1,3 @@
 # src-git packages https://github.com/openwrt/packages.git;master
 # src-git luci https://github.com/openwrt/luci.git;master
+src-git vnt https://github.com/lmq8267/openwrt-vnt.git;main
