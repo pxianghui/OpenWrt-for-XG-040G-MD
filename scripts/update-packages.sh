@@ -89,6 +89,10 @@ echo "Done removing sing-box from feeds"
 # HomeProxy (代理软件) - 使用第5个参数指定额外要删除的包名
 UPDATE_PACKAGE "homeproxy" "immortalwrt/homeproxy" "master"
 
+# VNT（虚拟网络）
+UPDATE_PACKAGE "vnt" "lmq8267/openwrt-vnt" "main"
+UPDATE_PACKAGE "luci-app-vnt" "lmq8267/openwrt-vnt" "main"
+
 # Argon 主题
 UPDATE_PACKAGE "luci-theme-argon" "jerrykuku/luci-theme-argon" "master"
 UPDATE_PACKAGE "luci-app-argon-config" "jerrykuku/luci-app-argon-config" "master"
